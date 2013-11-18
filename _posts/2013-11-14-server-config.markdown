@@ -240,3 +240,7 @@ Then make it executable
 
     chmod +x /etc/network/if-pre-up.d/iptables
 
+### That's it
+
+*If I have some spare time and anyone wants me to, I might make a puppet or
+ansible cookbook for this*

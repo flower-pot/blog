@@ -1,0 +1,7 @@
+---
+layout: post
+title: 39 days in
+teaser: How a GitHub streak (can) improve software
+---
+
+Lorem Ipsum dolor sit amet.

@@ -1,0 +1,9 @@
+{% include header.html %}
+<div class="row">
+  <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
+    <h2>{{ page.title }} <small><nobr>{{ page.date | date: "%d %b %Y" }}</nobr></small></h2>
+    {{ content }}
+    <hr />
+  </div>
+</div>
+{% include footer.html %}

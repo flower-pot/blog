@@ -1,0 +1,15 @@
+{% include header.html %}
+
+{% assign curr_post = site.posts.first %}
+
+<div class="row">
+  <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
+    <h2><a href="{{ site.url }}{{ curr_post.url }}">{{ curr_post.title }} <small><nobr>{{ curr_post.date | date: "%d %b %Y" }}</nobr></small></a></h2>
+    {{ curr_post.content }}
+    <hr />
+    <p class="text-center">
+    <a href="{{ site.url }}/archive">[ older posts ]</a>
+    </p>
+  </div>
+</div>
+{% include footer.html %}

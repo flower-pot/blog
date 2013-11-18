@@ -1,0 +1,51 @@
+h2 a, h2 a:visited {
+  color: rgb(51, 51, 51);
+}
+
+.page-header {
+  padding-bottom: 11px;
+  margin: 0px 0px 20px;
+  background-color: #FDFFFF;
+  border-bottom: 1px solid #009999;
+}
+
+.container {
+  max-width: 760px;
+}
+.container img {
+  max-width: 80%;
+  display: block;
+  margin: 30px auto;
+}
+.container h1 a, .container h1 a:visited, .container h1 a:hover {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.heading {
+  color: rgb(51, 51, 51);
+}
+
+html, body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  margin-top: 20px;
+  color: rgb(200, 200, 200);
+  padding-top: 19px;
+}

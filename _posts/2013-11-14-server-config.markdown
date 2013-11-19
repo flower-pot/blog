@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Securing a Server
-teaser: Some notices on how to secure a debian based server
+teaser: Some notes on how to secure a debian based server
 ---
 
 *Hint: Tested on Debian 6 and 7, but should also work on ubuntu server*

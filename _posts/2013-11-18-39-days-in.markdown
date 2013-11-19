@@ -6,6 +6,9 @@ teaser: How a GitHub streak (can) improve software
 
 I have lately been setting myself a challenge, I want to keep up my pace of
 developing software by keeping my GitHub streak alive. Before I start to talk
-about experiences I have encountered so far I want to make clear I don't do
+about challenges I have encountered so far I want to make clear I don't do
 this to create a GitHub CV or anything there are enough discussions about this
-on hacker news, reddit, ecetera.
+on hacker news, reddit, ecetera. The one and only reason is for the joy of
+developing software and the challenge to do it continuesly.
+
+

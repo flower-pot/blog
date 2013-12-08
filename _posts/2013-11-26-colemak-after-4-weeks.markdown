@@ -27,7 +27,9 @@ or better ergonomics than qwerty.
 
 Even though Dvorak has been designed to type as fast as possible I decided to
 learn Colemak since it is being praised for its ergonomics and most users
-also surpass qwerty users in terms of speed.
+also surpass people using qwerty in terms of speed.
+
+![Colemak Layout](/assets/images/Colemak-layout.png)
 
 ###Week #1 + #2
 

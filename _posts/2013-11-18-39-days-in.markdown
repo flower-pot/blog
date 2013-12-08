@@ -4,15 +4,17 @@ title: Current Projects
 teaser: How I keep my GitHub streak up
 ---
 
-Essentially what has been keeping me from completing projects before was 
-frustration, forget about it and just don't look at it again. To not fall into
-this trap again I want to use a GitHub streak to see that I actually work on 
+Essentially what has been keeping me from completing projects before, was 
+frustration, then forget about it and just don't look at it again. To not break
+this habit I want to use a GitHub streak to see that I actually work on 
 something daily. My hypothesis: even if I only spend a couple minutes a day on
 any of my projects, the progress will be greater than if I just try to finish
 the software not keeping track of how much time I spend.
 
 I will present the projects of my current streak and then talk about experiences
 I have made so far.
+
+![Octocat](/assets/images/Octocat.jpg)
 
 ####Le start: URAAAS
 
@@ -23,7 +25,11 @@ It is written in scala using scalatra (for those unfamiliar with it, it is
 like sinatra for scala). It was a couple hours of fun, but since we're not too
 proud of the resulted code, we have not yet published it.
 
-####Second project: vim-pastebin
+Take a look at it and tell us what you think: 
+[URAAAS](http://uraaas.herokuapp.com) (it might take a while since the dyno
+shuts down, when noone visits it for 30 minutes)
+
+####Second project: vim-pastebin [Running App](vim-pastebin.herokuapp.com) | [GitHub](https://github.com/flower-pot/pastebin)
 
 I have started to learn Rails and written my first app the
 vim-pastebin. Although it is not a very complicated application I was very
@@ -77,7 +83,12 @@ productive.
 
 Another thing I thought would be difficult was finding something to do,
 however, I soon realized there is always something todo. Even if it's just
-styling something so the user interface looks nicer. I tend to ignore styling
-websites because I don't find I particularly interesting. I rather enjoy
-solving problems using algorithms, math, and statistics. Styling a website
-doesn't give me that.
+styling something so the user interface looks nicer. On some days it was 
+literally adding one line to make it look nicer, but hey I won't have to do it
+another time! I tend to ignore styling websites because I don't find I 
+particularly interesting. I rather enjoy solving problems using algorithms, 
+math, and statistics. Styling a website doesn't give me that.
+
+Sometimes I even challenge myself a bit more by adding the most I can do on a
+day just so I have to come up with something new the next day. That way I make
+myself think about how I can improve my projects.

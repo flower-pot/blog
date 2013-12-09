@@ -29,7 +29,7 @@ Take a look at it and tell us what you think:
 [URAAAS](http://uraaas.herokuapp.com) (it might take a while since the dyno
 shuts down, when noone visits it for 30 minutes)
 
-####Second project: vim-pastebin [Running App](vim-pastebin.herokuapp.com) | [GitHub](https://github.com/flower-pot/pastebin)
+####Second project: vim-pastebin [Running App](vim-pastebin.herokuapp.com)
 
 I have started to learn Rails and written my first app the
 vim-pastebin. Although it is not a very complicated application I was very
@@ -40,6 +40,8 @@ My friend tried to create a vim plugin for it, however, up until now he has not
 succeded in doing so mostly because vim-script is some weird shit. It would be
 cool if I could get some feedback on the rails app to be able to learn from my
 mistakes.
+
+{% render_github_repo flower-pot/pastebin %}
 
 ####Project #3: Suploy
 

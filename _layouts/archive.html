@@ -10,7 +10,7 @@
         <hr />
         {{ post.teaser }}
       </div>
-    {% if modulo == '1' %}
+    {% if modulo == '1' or forloop.last %}
     </div>
     {% endif %}
     {% endfor %}

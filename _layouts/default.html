@@ -1,42 +1,40 @@
-{% include header.html %}
+      {% include header.html %}
+      {% assign curr_post = site.posts.first %}
+      <div class="row">
+        <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
+          <h2><a href="{{ site.url }}{{ curr_post.url }}">{{ curr_post.title }} <small><nobr>{{ curr_post.date | date: "%d %b %Y" }}</nobr></small></a></h2>
+          {{ curr_post.content }}
+        </div>
+      </div>
+      {% if curr_post.commets %}
+      <div class="row">
+        <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+              var disqus_shortname = 'flowerpot-dev'; // required: replace example with your forum shortname
+              var disqus_identifier = '{{ curr_post.url }}';
+              var disqus_title = '{{ curr_post.title }}';
+              var disqus_url = '{{ site.url}}{{ curr_post.url }}';
 
-{% assign curr_post = site.posts.first %}
-
-<div class="row">
-  <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
-    <h2><a href="{{ site.url }}{{ curr_post.url }}">{{ curr_post.title }} <small><nobr>{{ curr_post.date | date: "%d %b %Y" }}</nobr></small></a></h2>
-    {{ curr_post.content }}
-  </div>
-</div>
-{% if curr_post.commets %}
-<div class="row">
-  <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'flowerpot-dev'; // required: replace example with your forum shortname
-        var disqus_identifier = '{{ curr_post.url }}';
-        var disqus_title = '{{ curr_post.title }}';
-        var disqus_url = '{{ site.url}}{{ curr_post.url }}';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
-</div>
-{% endif %}
-<div class="row">
-  <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
-    <hr />
-    <p class="text-center">
-    <a href="{{ site.url }}/archive">[ older posts ]</a>
-    </p>
-  </div>
-</div>
-{% include footer.html %}
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-md-10 col-sm-12 col-md-offset-1 centered">
+          <hr />
+          <p class="text-center">
+          <a href="{{ site.url }}/archive">[ older posts ]</a>
+          </p>
+        </div>
+      </div>
+      {% include footer.html %}

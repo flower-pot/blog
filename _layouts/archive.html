@@ -1,18 +1,18 @@
 {% include header.html %}
-  <div class="col-md-10 col-sm-6 col-md-offset-1 col-sm-offset-3 centered">
-    {% for post in site.posts %}
-    {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
-    {% if modulo == '0' %}
-    <div class="row">
+<div class="col-md-10 col-sm-6 col-md-offset-1 col-sm-offset-3 centered">
+  {% for post in site.posts %}
+  {% capture modulo %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+  {% if modulo == '0' %}
+  <div class="row">
     {% endif %}
-      <div class="col-md-6">
-        <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <small><nobr>{{ post.date | date: "%d %b %Y" }}</nobr></small></a></h2>
-        <hr />
-        {{ post.teaser }}
-      </div>
-    {% if modulo == '1' or forloop.last %}
+    <div class="col-md-6">
+      <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <small><nobr>{{ post.date | date: "%d %b %Y" }}</nobr></small></a></h2>
+      <hr />
+      {{ post.teaser }}
     </div>
-    {% endif %}
-    {% endfor %}
+    {% if modulo == '1' or forloop.last %}
   </div>
+  {% endif %}
+  {% endfor %}
+</div>
 {% include footer.html %}

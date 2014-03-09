@@ -2,6 +2,7 @@
 layout: post
 title: Current Projects
 teaser: How I keep my GitHub streak up
+commets: true
 ---
 
 Essentially what has been keeping me from completing projects before, was 

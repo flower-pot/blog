@@ -2,6 +2,7 @@
 layout: post
 title: Colemak after 4 weeks
 teaser: Experiences of learning colemak after 4 weeks of learning
+commets: true
 ---
 
 A while back I read about Colemak in an article on hn. Up until then the only

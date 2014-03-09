@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 teaser: My very first post on this blog
+commets: true
 ---
 
 ####Hi,

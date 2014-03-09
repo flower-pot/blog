@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll GitHub Repo Plugin
 teaser: A Jekyll plugin to nicely create display a github repo in a jekyll post
+commets: true
 ---
 
 I was actually very surprised that no one up until now had published a plugin

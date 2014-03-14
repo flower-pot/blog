@@ -53,3 +53,6 @@ My nginx vhost:
 
 Of course these scripts only work when the gitlab instance and the webserver
 are both running on the same machine.
+
+_Even though I like this setup I will be playing around with WebHooks and
+see if I find a solution I like better. Anyway I will post my results._

@@ -10,7 +10,7 @@ include:     ['.htaccess']
 exclude:     ['README.md']
 keep_files:  ['.git','.svn']
 timezone:    nil
-encoding:    nil
+encoding:    utf-8
 
 future:      true
 show_drafts: nil

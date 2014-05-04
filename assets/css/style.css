@@ -22,7 +22,8 @@ body {
 #main {
   background-color: white;
   border-top: 2px solid #BBB;
-  padding: 100px 120px 60px;
+  padding-top: 7em;
+  padding-bottom: 3em;
   margin-bottom: 50px;
 }
 

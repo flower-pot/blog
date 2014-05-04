@@ -11,11 +11,13 @@ module Jekyll
     end
 
     def render(context)
-      result = "<div class='github-repo clearfix panel panel-default center-block hidden-print'>"
-      result << "  <div class='panel-body'>"
-      result << "    <p class='github-repo-name'><i style='font-size: 120%' class='fa fa-github'> </i> <a href='#{@repo["html_url"]}'>#{@repo["full_name"]}</a> (#{@repo["language"]})</p>"
-      result << "    <p class='github-repo-description'>#{@repo["description"]}</p>"
-      result << "    <p><a class='btn btn-default pull-left' href='#{@repo["html_url"]}'>Fork <span class='label label-primary'>#{@repo["forks_count"]}</span></a><a class='btn btn-default pull-right' href='#{@repo["html_url"]}'>Watch <span class='label label-primary'>#{@repo["watchers_count"]}</span></a></p>"
+      result =  "<div class='row'>"
+      result << "  <div class='clearfix panel panel-default hidden-print col-md-6 col-md-offset-3'>"
+      result << "    <div class='panel-body'>"
+      result << "      <p class='github-repo-name'><i style='font-size: 120%' class='fa fa-github'> </i> <a href='#{@repo["html_url"]}'>#{@repo["full_name"]}</a> (#{@repo["language"]})</p>"
+      result << "      <p class='github-repo-description'>#{@repo["description"]}</p>"
+      result << "      <p><a class='btn btn-default pull-left' href='#{@repo["html_url"]}'>Fork <span class='label label-primary'>#{@repo["forks_count"]}</span></a><a class='btn btn-default pull-right' href='#{@repo["html_url"]}'>Watch <span class='label label-primary'>#{@repo["watchers_count"]}</span></a></p>"
+      result << "    </div>"
       result << "  </div>"
       result << "</div>"
       result

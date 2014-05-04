@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Impressum
+title: Imprint (German)
 ---
 
 Angaben gemäß § 5 TMG:

@@ -11,7 +11,7 @@ module Jekyll
     end
 
     def render(context)
-      result = "<div class='github-repo clearfix panel panel-default' style='width: 250px;'>"
+      result = "<div class='github-repo clearfix panel panel-default center-block hidden-print'>"
       result << "  <div class='panel-body'>"
       result << "    <p class='github-repo-name'><i style='font-size: 120%' class='fa fa-github'> </i> <a href='#{@repo["html_url"]}'>#{@repo["full_name"]}</a> (#{@repo["language"]})</p>"
       result << "    <p class='github-repo-description'>#{@repo["description"]}</p>"

@@ -5,7 +5,7 @@ teaser: Some notes on how to secure a debian based server
 commets: true
 ---
 
-*Hint: Tested on Debian 6 and 7, but should also work on ubuntu server*
+> Hint: Tested on Debian 6 and 7, but should also work on ubuntu server
 
 ## First steps
 

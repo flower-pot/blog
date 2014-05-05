@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Securing a Server
-teaser: Some notes on how to secure a debian based server
+teaser: Some notes on how to secure a Debian based server
 commets: true
 ---
 
-> Hint: Tested on Debian 6 and 7, but should also work on ubuntu server
+> Hint: Tested on Debian 6 and 7, but should also work on Ubuntu server
 
 ## First steps
 
@@ -47,7 +47,7 @@ After that the output of these should be the same
 
 ### ntp system clock
 
-To syncronize our system clock via ntp we only have to install ntp and ntpdate
+To synchronize our system clock via ntp we only have to install ntp and ntpdate
 
     apt-get install ntp ntpdate
 
@@ -61,7 +61,7 @@ Change the root password to something long and complex.
 
 ### Fail2ban
 
-Fail2ban watches logins and blocks suspicious conntections. We won't need to configure anything it's awesome out of the box.
+Fail2ban watches logins and blocks suspicious connections. We won't need to configure anything it's awesome out of the box.
 
     apt-get install fail2ban
 
@@ -156,7 +156,7 @@ Then we will have to add every service we want to monitor to the monit config.
 
     vim /etc/monit/monitrc
 
-An example config for cpu load, ssh and mysql monitoring.
+An example config for CPU load, ssh and MySQL monitoring.
 
     set daemon 180
     set logfile syslog facility log_daemon

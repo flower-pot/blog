@@ -28,7 +28,7 @@ proud of the resulted code, we have not yet published it.
 
 Take a look at it and tell us what you think: 
 [URAAAS](http://uraaas.herokuapp.com) (it might take a while since the dyno
-shuts down, when noone visits it for 30 minutes)
+shuts down, when no one visits it for 30 minutes)
 
 ####Second project: vim-pastebin [Running App](vim-pastebin.herokuapp.com)
 
@@ -38,7 +38,7 @@ surprised how fast I learned to use Rails. That's when I decided to keep that
 pace up. Since it's my first rails project there are probably a lot of mistakes
 and wrong assumptions. This project is basically done regarding features.
 My friend tried to create a vim plugin for it, however, up until now he has not
-succeded in doing so mostly because vim-script is some weird shit. It would be
+succeeded in doing so mostly because vim-script is some weird shit. It would be
 cool if I could get some feedback on the rails app to be able to learn from my
 mistakes.
 
@@ -47,7 +47,7 @@ mistakes.
 ####Project #3: Suploy
 
 As part of software engineering course at university we had to form teams and
-create a software we desired. Since my team and I are big fans of opensource
+create a software we desired. Since my team and I are big fans of Open-Source
 we soon decided it should be open source. We wanted to create something
 that could help us and other developers in their process of creating more
 awesome software. The idea started to gain shape and we ended up planing an

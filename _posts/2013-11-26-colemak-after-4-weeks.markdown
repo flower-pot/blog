@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Colemak after 4 weeks
-teaser: Experiences of learning colemak after 4 weeks of learning
+teaser: Experiences of learning Colemak after 4 weeks of learning
 commets: true
 ---
 
-A while back I read about Colemak in an article on hn. Up until then the only
+A while back I read about Colemak in an article on HN. Up until then the only
 alternative layout I knew, which is actually being used, was Dvorak.
 
 At the time me and my mates practised typing because we were intimidated by
@@ -19,7 +19,7 @@ The idea was when using a new layout and ten finger typing I won't fall back
 into habits as much as if I had just tried to switch to ten finger typing as
 stick with qwerty.
 
-The fact of how qwerty originated also made me want to learn an alernate
+The fact of how qwerty originated also made me want to learn an alternate
 layout. For those who don't know, qwerty was created for typewriters and the
 layout was chosen so it won't get stuck if you type fast. As a side effect it
 also created sort of a maximum speed at which one can type. Alternative layouts
@@ -36,10 +36,10 @@ also surpass people using qwerty in terms of speed.
 
 The first few days were exhausting especially since I was trying to keep my
 GitHub streak up. I used Klavaro for practising since it supports Colemak and
-runs on ubuntu. Completing the first 31 lessons wasn't all too exciting, it 
+runs on Ubuntu. Completing the first 31 lessons wasn't all too exciting, it 
 took me about three days to complete them. After that practising was the only
 way to improve in speed and after the first week, even though continuously 
-swearing since colemak did still feel a bit unnatural, my speed was around 
+swearing since Colemak did still feel a bit unnatural, my speed was around 
 20wpm. The next week I still practised daily and my speed wend up to around
 35wpm.
 
@@ -51,7 +51,7 @@ I study for exams and that's how I came up with, what I felt the most helpful
 method I used in learning Colemak. When studying I spend the last hour before
 going to sleep with reading through my notes or practising problems in math for
 example. That way you process what you read in your sleep and it burns into
-your brain. Adepting it to my learning process helped a lot and I got up to
+your brain. Adapting it to my learning process helped a lot and I got up to
 around 48wpm at the end of week three, although I sometimes thought I was going
 insane as I sometimes thought about typing when doing something completely
 different. It still felt pretty good having improved up to that speed.
@@ -61,7 +61,7 @@ different. It still felt pretty good having improved up to that speed.
 The fourth didn't start off as well as I would have wanted it to, since I
 barely had any time to practise and when I did I was getting worse results than
 the week before. Then I took a whole day to practise and I was back in the
-game. At the end of week four my speed was around 53wpm, which is exceptable
+game. At the end of week four my speed was around 53wpm, which is acceptable
 to work with.
 
 ###Conclusion

@@ -58,3 +58,8 @@ even have to wait for that to update. (it can take up to 24 hours)
 Have fun migrating your blog to S3 + Cloudflare!
 
 Cheers
+
+edit: I have been asked, how much this setup costs me per month. I am only
+using the free version of cloudflare so that's $0. S3 depends on the traffic I
+have every month, and based off of the last months that would add up to about 1
+cent per month.

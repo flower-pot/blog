@@ -23,18 +23,18 @@ The Setup
 I don't have lots of traffic on this blog, but just for the experience I
 decided to go with a high availability solution of s3 and cloudflare.
 
-When looking at tools to help me with this I found the s3\_website gem which
+When looking at tools to help me with this I found the `s3_website` gem which
 natively supports jekyll sites, sweet!
 
 So I ...
 
-- instlled the s3\_website gem
+- installed the `s3_website` gem
 - created an S3 bucket (+ create an amazon aws account and add credit card, if
   you don't have one)
 - created api credentials
 - executed `s3_website cfg create`, which creates the s3 config file called
-  `s3\_website.yml`
-- add `s3\_website.yml` to my `.gitignore`
+  `s3_website.yml`
+- add `s3_website.yml` to my `.gitignore`
 - add my credentials and bucket name to the config file
 - run `s3_website cfg apply`
 - run `s3_website push` to upload my website to s3

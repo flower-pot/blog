@@ -5,6 +5,7 @@ SaltStack Introduction Demo
 > [Geek2Geek meetup in
 > Berlin](http://www.meetup.com/geek2geek/events/205940462/).
 
+
 > The Slides are available
 > [here](https://cdn.rawgit.com/flower-pot/blog/master/slides/2014-09-25-SaltStack/slides.html)
 

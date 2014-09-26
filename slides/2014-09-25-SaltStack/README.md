@@ -4,7 +4,9 @@ SaltStack Introduction Demo
 > This is a short documentation on the talk I held on September 25th 2014 at a
 > [Geek2Geek meetup in
 > Berlin](http://www.meetup.com/geek2geek/events/205940462/).
-> [Slides](https://cdn.rawgit.com/flower-pot/blog/master/slides/2014-09-25-SaltStack/slides.html)
+
+> The Slides are available
+> [here](https://cdn.rawgit.com/flower-pot/blog/master/slides/2014-09-25-SaltStack/slides.html)
 
 To be able to run the demo you need [vagrant](http://www.vagrantup.com/) and
 [virtualbox](https://www.virtualbox.org/) installed.

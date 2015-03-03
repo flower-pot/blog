@@ -1,3 +1,4 @@
+require 'uri'
 require 'open-uri'
 require 'json'
 
@@ -6,8 +7,9 @@ module Jekyll
     # use in this format: "user/repo"
     def initialize(tag_name, text, tokens)
       super
-      api_url = "https://api.github.com/repos/#{text}"
-      @repo = JSON.parse(open(api_url).read)
+      uri = "https://api.github.com/repos/#{text}".strip
+      json = URI.parse(uri).read
+      @repo = JSON.parse(json)
     end
 
     def render(context)

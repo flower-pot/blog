@@ -1,5 +1,6 @@
 require 'uri'
 require 'open-uri'
+require 'net/http'
 require 'json'
 
 module Jekyll
@@ -7,8 +8,13 @@ module Jekyll
     # use in this format: "user/repo"
     def initialize(tag_name, text, tokens)
       super
-      uri = "https://api.github.com/repos/#{text}".strip
-      json = URI.parse(uri).read
+      uri = URI.parse("https://api.github.com/repos/#{text}".strip)
+      req = Net::HTTP::Get.new(uri)
+      req.basic_auth ENV['GITHUB_ACCESS_TOKEN'], 'x-oauth-basic'
+      http = Net::HTTP.new(uri.hostname, uri.port)
+      http.use_ssl = true
+      res =  http.request(req)
+      json = res.body
       @repo = JSON.parse(json)
     end
 

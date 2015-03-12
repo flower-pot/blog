@@ -13,8 +13,12 @@
 </head>
 <body>
   <div id="page-header" class="hidden-print">
-    <div class="container text-center">
-      <h1><a href="/">Frederic Branczyk || flowerpot</a></h1>
-      <strong>{{ site.description }}</strong>
+    <div class="container text-center"">
+      <div class="col-sm-2 col-sm-offset-2">
+        <img class="img-circle" src="{{ 'fbranczyk@gmail.com' | get_gravatar }}?s=200" />
+      </div>
+      <div class="col-sm-6">
+        <h1 style="padding-top: 20px;"><a href="/">Frederic Branczyk || <span style="white-space: nowrap">flower(-)?pot</span><br /><small>{{ site.description }}</small></a></h1>
+      </div>
     </div>
   </div>

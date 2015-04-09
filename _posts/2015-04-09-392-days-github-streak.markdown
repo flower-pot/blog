@@ -5,12 +5,12 @@ teaser: Comments on my GitHub streak
 commets: true
 ---
 
-My current GitHub streak started on March the 13th 2014, so far 392 days. I
-started it, to stay more active on my side projects. I learned so much, and it
-has gotten me several opportunities including several job interviews, an
-internship in Palo Alto (which was a big deal, since I'm from Germany), and
-countless interesting conversations because people suddenly take me take
-serious.
+My current [GitHub streak](https://github.com/flower-pot) started on March the
+13th 2014, so far 392 days. I started it, to stay more active on my side
+projects. I learned so much, and it has gotten me several opportunities
+including several job interviews, an internship in Palo Alto (which was a big
+deal, since I'm from Germany), and countless interesting conversations because
+people suddenly take me take serious.
 
 So let's start at the beginning. As I said I started the streak to be more
 active in my side projects. And that has gotten me pretty far, I am about to

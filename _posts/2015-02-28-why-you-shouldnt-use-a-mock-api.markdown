@@ -31,3 +31,8 @@ Even though this approach works it creates a redundancy among all of our client
 libraries: we are constantly syncronizing tests between the libaries. One
 acronym: DRY. There should be a better way.
 
+Edit: It turns out I am not the only one bothering this. I found
+[pact](https://github.com/realestate-com-au/pact), which can be used to specify
+how a client wants to use an API and it generates tests for the api as well as
+mocks for the client.
+

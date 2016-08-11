@@ -7,11 +7,7 @@ Angaben gemäß § 5 TMG:
 
 Frederic Branczyk
 
-Nancystraße 22
-
-Zimmer 015
-
-76187 Karlsruhe
+//Insert Address
 
 ***
 
@@ -25,11 +21,7 @@ Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
 Frederic Branczyk
 
-Nancystraße 22
-
-Zimmer 015
-
-76187 Karlsruhe
+//Insert Address
 
 ***
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Securing a Server
-teaser: Some notes on how to secure a Debian based server
-commets: true
 ---
 
 > Hint: Tested on Debian 6 and 7, but should also work on Ubuntu server

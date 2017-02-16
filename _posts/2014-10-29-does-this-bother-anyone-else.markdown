@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Does this bother anyone else?
-teaser: Just checking if I'm crazy...
-commets: true
 ---
 
 This post is a little different from my past ones. I just want to see, what

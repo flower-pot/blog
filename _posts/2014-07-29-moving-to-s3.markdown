@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Moving to S3
-teaser: Why and how I moved this blog to amazon S3
-commets: true
 ---
 
 I described in one of my earlier posts, that I used gits post-receive hook to

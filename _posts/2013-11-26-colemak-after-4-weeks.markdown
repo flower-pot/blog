@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Colemak after 4 weeks
-teaser: Experiences of learning Colemak after 4 weeks of learning
-commets: true
 ---
 
 A while back I read about Colemak in an article on HN. Up until then the only
@@ -30,9 +28,9 @@ Even though Dvorak has been designed to type as fast as possible I decided to
 learn Colemak since it is being praised for its ergonomics and most users
 also surpass people using qwerty in terms of speed.
 
-![Colemak Layout](/assets/images/Colemak-layout.png)
+![Colemak Layout](/images/Colemak-layout.png)
 
-###Week #1 + #2
+### Week #1 + #2
 
 The first few days were exhausting especially since I was trying to keep my
 GitHub streak up. I used Klavaro for practising since it supports Colemak and
@@ -43,7 +41,7 @@ swearing since Colemak did still feel a bit unnatural, my speed was around
 20wpm. The next week I still practised daily and my speed wend up to around
 35wpm.
 
-###Week #3
+### Week #3
 
 With 35wpm working on code didn't feel as painful anymore as it did in the
 first week, but I wanted to keep my pace of improving up. I thought about how
@@ -56,7 +54,7 @@ around 48wpm at the end of week three, although I sometimes thought I was going
 insane as I sometimes thought about typing when doing something completely
 different. It still felt pretty good having improved up to that speed.
 
-###Week #4
+### Week #4
 
 The fourth didn't start off as well as I would have wanted it to, since I
 barely had any time to practise and when I did I was getting worse results than
@@ -64,7 +62,7 @@ the week before. Then I took a whole day to practise and I was back in the
 game. At the end of week four my speed was around 53wpm, which is acceptable
 to work with.
 
-###Conclusion
+### Conclusion
 
 Overall I am very happy with my decision, it feels very smooth to type on
 Colemak. I feared that I won't be able to use vim anymore when switching to

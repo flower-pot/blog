@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Current Projects
-teaser: How I keep my GitHub streak up
-commets: true
 ---
 
 Essentially what has been keeping me from completing projects before, was 
@@ -15,9 +13,9 @@ the software not keeping track of how much time I spend.
 I will present the projects of my current streak and then talk about experiences
 I have made so far.
 
-![Octocat](/assets/images/Octocat.jpg)
+![Octocat](/images/Octocat.jpg)
 
-####Le start: URAAAS
+#### Le start: URAAAS
 
 Even though it was not the start of the GitHub streak the first project I 
 worked on me and a friend of mine writing an obviously very balant copy
@@ -30,7 +28,7 @@ Take a look at it and tell us what you think:
 [URAAAS](http://uraaas.herokuapp.com) (it might take a while since the dyno
 shuts down, when no one visits it for 30 minutes)
 
-####Second project: vim-pastebin [Running App](vim-pastebin.herokuapp.com)
+#### Second project: vim-pastebin [Running App](http://vim-pastebin.herokuapp.com/)
 
 I have started to learn Rails and written my first app the
 vim-pastebin. Although it is not a very complicated application I was very
@@ -42,9 +40,7 @@ succeeded in doing so mostly because vim-script is some weird shit. It would be
 cool if I could get some feedback on the rails app to be able to learn from my
 mistakes.
 
-{% render_github_repo flower-pot/pastebin %}
-
-####Project #3: Suploy
+#### Project #3: Suploy
 
 As part of software engineering course at university we had to form teams and
 create a software we desired. Since my team and I are big fans of Open-Source
@@ -58,7 +54,7 @@ experimenting with a combination of git, gitolite, docker, buildstep and nginx.
 We soon had somewhat working prototypes and went on to building the webapp in
 which users are supposed to manage their webapps, ssh-keys, etc.
 
-####Last but not least: OSHome
+#### Last but not least: OSHome
 
 This project was my Dads idea because he wanted to collect and analyse data
 around our house. Our first attempt used an arduino (yes an arduino, because I 
@@ -76,7 +72,7 @@ I was amazed by the rails magic and have developed a hate against php.
 
 Now I am rebuilding the system with rails using d3js to generate the graphs.
 
-####Preliminary result
+#### Preliminary result
 
 I have never felt so productive before! My biggest fear before starting this
 was that I possibly won't enjoy programming as much, since I push myself to

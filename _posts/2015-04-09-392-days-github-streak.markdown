@@ -1,11 +1,9 @@
 ---
 layout: post
 title: 392 Days GitHub streak
-teaser: Comments on my GitHub streak
-commets: true
 ---
 
-My current [GitHub streak](https://github.com/flower-pot) started on March the
+My current [GitHub streak](https://github.com/brancz) started on March the
 13th 2014, so far 392 days. I started it, to stay more active on my side
 projects. I learned so much, and it has gotten me several opportunities
 including several job interviews, an internship in Palo Alto (which was a big

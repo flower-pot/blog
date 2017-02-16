@@ -1,17 +1,16 @@
 ---
 layout: post
 title: Hello World
-teaser: My very first post on this blog
-commets: true
 ---
 
-####Hi,
+## Hi,
 
-my name is Frederic Branczyk (or flower-pot because how can anyone remember 
-Frederic Branczyk, not even my parents call me by my name). I am an applied
-computer science student living and studying in Karlsruhe, Germany. In this
-blog I want to describe and tell everyone about technologies I try and work
-with, projects I work on and challenges I encounter.
+my name is Frederic Branczyk (or brancz and formerly known as flower-pot,
+because how can anyone remember Frederic Branczyk, not even my parents call me
+by my name). I am an applied computer science student living and studying in
+Karlsruhe, Germany. In this blog I want to describe and tell everyone about
+technologies I try and work with, projects I work on and challenges I
+encounter.
 
 I don't know if anyone will even read this blog, it is just a way for me to
 document projects and add my opinion on topics I find to be interesting.

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Jekyll + Disqus
-teaser: How I setup Disqus with my jekyll blog
-commets: true
 ---
 
 In my previous post I've been asked to share my Disqus setup with Jekyll. It is
@@ -12,6 +10,7 @@ First you have to sign up for Disqus and add a Website. Then you are told to
 integrate some javascript and html on your website. The way I do it is with
 this snipped:
 
+```html
 {% highlight html %}
 {% if page.commets %}
   <div class="hidden-print">
@@ -38,6 +37,7 @@ this snipped:
   </div>
 {% endif %}
 {% endhighlight %}
+```
 
 I have that little If-Statement around the block, so I can decide to turn off
 comments if I want to. I would do so by typing `comments: false` in the

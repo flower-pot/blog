@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Deploying blog with GitLab
-teaser: How I deploy my blog using post-receive and nginx
-commets: true
 ---
 
 Although I keep my blog on GitHub I also have another copy in my gitlab

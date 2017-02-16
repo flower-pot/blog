@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Boilerplates
-teaser: What I learned developing a boilerplate
-commets: true
 ---
 
 I admit it, I wrote a boilerplate. It started with two projects I am working on
@@ -37,7 +35,7 @@ Although it did not turn out to have worked well, in my opinion this was a
 mistake I had to make. If you want to take a look at it anyways go ahead, it is
 not as well tested as advertised on the frontpage.
 
-{% render_github_repo flower-pot/base-app %}
+https://github.com/brancz/base-app
 
 On the bright side, it taught me about best practises. I learned to use code
 metrics, ci and improved the way I write tests. So the downside is a not so

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Desktop install script
-teaser: A bash script I use to install my Ubuntu machines
-commets: true
 ---
 
 I like to have a clean machine and install it fresh every time there is a new
 Ubuntu release. However, I also want to keep my cool configurations so that's
-why I have [my dotfiles on GitHub](github.com/flower-pot/desktop-install).
+why I have [my dotfiles on GitHub](github.com/brancz/desktop-install).
 
 In the past when people asked me how I got my shell to look like that, or how
 they should install rails, what dependencies they need I would either tell them
@@ -19,7 +17,7 @@ time explaining what to do to get their installation to be like mine. So I
 decided to write a script which does all of that and in case someone is
 interested in what the script actually does they can just look at the code.
 
-{% render_github_repo flower-pot/desktop-install %}
+https://github.com/brancz/desktop-install
 
 It is capable of installing
 

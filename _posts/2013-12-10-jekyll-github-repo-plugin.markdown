@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Jekyll GitHub Repo Plugin
-teaser: A Jekyll plugin to nicely create display a github repo in a jekyll post
-commets: true
 ---
 
 I was actually very surprised that no one up until now had published a plugin
@@ -21,7 +19,7 @@ similarities ;)
 
 ####So here it is:
 
-{% render_github_repo flower-pot/jekyll-github-repo-plugin %}
+https://github.com/brancz/jekyll-github-repo-plugin
 
 I realize a GitHub repo might be a bit too much for this. A gist would also
 do, but I think it's a nice way to demonstrate the functionality. Feel free to

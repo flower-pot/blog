@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kubernetes OSX Chrome Client Cert Auth
+archived: true
 ---
 
 So you have just set up your Kubernetes cluster using the excellent [`kube-aws`

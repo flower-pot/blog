@@ -12,4 +12,8 @@ RUN bundle install
 
 COPY . /usr/src/app
 
-CMD ["bundle", "exec", "jekyll", "build"]
+RUN bundle exec jekyll build --drafts
+
+FROM nginx
+
+COPY --from=0 /usr/src/app/_site /usr/share/nginx/html

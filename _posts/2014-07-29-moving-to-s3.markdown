@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving to S3
+archived: true
 ---
 
 I described in one of my earlier posts, that I used gits post-receive hook to

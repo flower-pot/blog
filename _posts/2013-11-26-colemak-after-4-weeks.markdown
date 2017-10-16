@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Colemak after 4 weeks
+archived: true
 ---
 
 A while back I read about Colemak in an article on HN. Up until then the only

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll + Disqus
+archived: true
 ---
 
 In my previous post I've been asked to share my Disqus setup with Jekyll. It is

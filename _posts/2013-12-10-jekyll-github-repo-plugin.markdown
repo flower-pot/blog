@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll GitHub Repo Plugin
+archived: true
 ---
 
 I was actually very surprised that no one up until now had published a plugin

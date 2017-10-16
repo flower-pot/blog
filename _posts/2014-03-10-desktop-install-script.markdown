@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Desktop install script
+archived: true
 ---
 
 I like to have a clean machine and install it fresh every time there is a new

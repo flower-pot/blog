@@ -10,8 +10,8 @@ serve: container
 container:
 	docker build -t $(DOCKER_IMAGE_NAME) .
 
-build: container-dev
-	docker run --rm -it -v $(shell pwd):/usr/src/app $(DOCKER_IMAGE_NAME)-dev bundle exec jekyll build
+serve-dev: container-dev
+	docker run --rm -it -p 8080:80 $(DOCKER_IMAGE_NAME)-dev
 
 container-dev:
 	docker build -f Dockerfile.dev -t $(DOCKER_IMAGE_NAME)-dev .

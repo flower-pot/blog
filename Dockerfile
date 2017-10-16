@@ -16,4 +16,4 @@ RUN bundle exec jekyll build
 
 FROM nginx
 
-COPY _site /usr/share/nginx/html
+COPY --from=0 /usr/src/app/_site /usr/share/nginx/html

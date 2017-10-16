@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Current Projects
+archived: true
 ---
 
 Essentially what has been keeping me from completing projects before, was 

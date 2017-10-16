@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Deploying blog with GitLab
+archived: true
 ---
 
 Although I keep my blog on GitHub I also have another copy in my gitlab

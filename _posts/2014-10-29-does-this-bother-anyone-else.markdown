@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Does this bother anyone else?
+archived: true
 ---
 
 This post is a little different from my past ones. I just want to see, what

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to test RESTful API Clients
+archived: true
 ---
 
 All my current projects involve a RESTful JSON API that is consumed by multiple

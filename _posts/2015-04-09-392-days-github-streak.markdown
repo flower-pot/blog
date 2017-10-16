@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 392 Days GitHub streak
+archived: true
 ---
 
 My current [GitHub streak](https://github.com/brancz) started on March the

@@ -2,9 +2,11 @@
 layout: default
 ---
 
+<p>The archive mostly contains posts that I have written while in university, and that I am embarrassed about, but not quite embarrassed enough to delete them.</p>
+
 <div class="posts">
   {% for post in site.posts %}
-  {% if post.archived != true %}
+  {% if post.archived == true %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Boilerplates
+archived: true
 ---
 
 I admit it, I wrote a boilerplate. It started with two projects I am working on

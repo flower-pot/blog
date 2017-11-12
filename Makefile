@@ -24,4 +24,4 @@ mtail-container:
 	docker build -t $(MTAIL_IMAGE_NAME) -f ./mtail/Dockerfile .
 
 run-mtail: mtail-container
-	docker run --rm -p 0.0.0.0:8081:8081 -v `pwd`/tmp/logs:/mtail/logs quay.io/brancz/blog-mtail:65f81d7 -progs /mtail/progs/ -logs /mtail/logs/access.log -port 8081
+	docker run --rm -p 0.0.0.0:8081:8081 -v `pwd`/tmp/logs:/mtail/logs quay.io/brancz/blog-mtail:65f81d7 -progs=/mtail/progs/ -logs=/mtail/logs/access.log -port=8081

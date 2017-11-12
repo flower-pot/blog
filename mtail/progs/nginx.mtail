@@ -1,0 +1,83 @@
+counter http_requests_total by method, code
+
+counter http_request_time_milliseconds by le, method, code
+counter http_request_time_milliseconds_sum by method, code
+counter http_request_time_milliseconds_count by method, code
+
+# log_format metricinfo '"$request" $status $request_time';
+
+/^/ +
+/"(?P<request_method>[A-Z]+) (?P<request_uri>\S+) (?P<http_version>HTTP\/[0-9\.]+)" / +
+/(?P<status>\d{3}) / +
+/(?P<request_seconds>\d+)\.(?P<request_milliseconds>\d+)/ +
+/$/ {
+  http_requests_total[$request_method][$status]++
+
+  ###
+  # HTTP Requests with histogram buckets.
+  #
+  http_request_time_milliseconds_count[$request_method][$status]++
+  http_request_time_milliseconds_sum[$request_method][$status] += $request_seconds * 1000 + $request_milliseconds
+
+  # These statements "fall through", so the histogram is cumulative.  The
+  # collecting system can compute the percentile bands by taking the ratio of
+  # each bucket value over the final bucket.
+
+  # 5ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 5 {
+    http_request_time_milliseconds["5"][$request_method][$status]++
+  }
+
+  # 10ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 10 {
+    http_request_time_milliseconds["10"][$request_method][$status]++
+  }
+
+  # 25ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 25 {
+    http_request_time_milliseconds["25"][$request_method][$status]++
+  }
+
+  # 50ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 50 {
+    http_request_time_milliseconds["50"][$request_method][$status]++
+  }
+
+  # 100ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 100 {
+    http_request_time_milliseconds["100"][$request_method][$status]++
+  }
+
+  # 250ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 250 {
+    http_request_time_milliseconds["250"][$request_method][$status]++
+  }
+
+  # 500ms bucket.
+  $request_seconds * 1000 + $request_milliseconds < 500 {
+    http_request_time_milliseconds["500"][$request_method][$status]++
+  }
+
+  # 1s bucket.
+  $request_seconds * 1000 + $request_milliseconds < 1000 {
+    http_request_time_milliseconds["1000"][$request_method][$status]++
+  }
+
+  # 2.5s bucket.
+  $request_seconds * 1000 + $request_milliseconds < 2500 {
+    http_request_time_milliseconds["2500"][$request_method][$status]++
+  }
+
+  # 5s bucket.
+  $request_seconds * 1000 + $request_milliseconds < 5000 {
+    http_request_time_milliseconds["5000"][$request_method][$status]++
+  }
+
+  # 10s bucket.
+  $request_seconds * 1000 + $request_milliseconds < 10000 {
+    http_request_time_milliseconds["10000"][$request_method][$status]++
+  }
+
+  # "inf" bucket, also the total number of requests.
+  http_request_time_milliseconds["inf"][$request_method][$status]++
+}
